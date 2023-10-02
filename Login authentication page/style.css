@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* ---------------------------------NavBar--------------------------------------------------- */
+/* nav{
+    position: sticky;
+    top: 0%;
+    background-color: white;
+} */
+
+.navbarname {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.navbarname h2 {
+
+    padding-right: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(219, 69, 69); 
+}
+
+.navbarname h4 {
+    margin-top: 6px;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    width: 50%;
+}
+
+.navbarname ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+
+}
+ul li a.active{
+    color: red;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    color:red;
+    font-size:18px ;
+}
+
+
+/* ----------------------------------About Section----------------------------------------------- */
+
+#aboutme {
+    height: 850px;
+    width: 500px;
+    background-color: rgb(236, 226, 209);
+}
+
+.aboutmecontent {
+    width: 70vw;
+    padding-top: 200px;
+    margin-left: 180px;
+    display: flex;
+
+}
+
+.logoname {
+    background-color: rgb(245, 239, 231);
+    height: 500px;
+    width: 45%;
+    box-shadow: -15px 15px 20px rgb(204, 189, 177);
+
+}
+
+.logoname img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.imagelogo {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.logoname h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 20px;
+    color: rgb(103, 42, 42);
+}
+
+.logoname hr {
+    margin-left:160px;
+    margin-top: 30px;
+    width: 80px;
+    background-color: red;
+    height: 2px;
+}
+.logoname h4{
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 6px;
+    margin-left:100px;
+    margin-top: 30px;
+}
+.linkbox{
+    margin-top: 50px;
+    background-color: white;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    
+}
+.linkbox img{
+    width: 28px;
+    height: 28px;
+    margin-right:20px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.linkbox img:hover{
+    width: 35px;
+    height: 35px;
+}
+.definemyself{
+    padding-left: 20px;
+    
+}
+.definemyself h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(219, 69, 69); 
+}
+.definemyself h3{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    
+}
+.resume{
+    margin-top: 40px;
+}
+
+.resume .resumebtn{
+    text-decoration: none;
+    border: 2px solid rgb(219, 69, 69);
+    background-color: rgb(219, 69, 69);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+     transition: 0.5s;
+}
+.resume a:hover{
+    background-color: white;
+    border: 2px solid rgb(219, 69, 69);
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.resume .projectbtn{
+    text-decoration: none;
+    border: 2px solid rgb(219, 69, 69);
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    /* font-weight: bold; */
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+     transition: 0.5s;
+}
+.resume .projectbtn:hover{
+      background-color: rgb(219, 69, 69);
+      color: white;
+}
+.aboutmepara{
+    padding-top: 40px;
+    width: 450px;
+}
+.aboutmepara p{
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+/* ------------------------------------Skil section------------------------------------------ */
+
+#skills{
+    height: 920px;
+    width: 500px;
+    background-color: rgb(236, 226, 209);
+}
+.skillheading{
+    text-align: center;
+    padding: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    width: 92vw;
+    background-color: white;
+}
+
+
+.skillsbox{
+      
+       background-color: rgb(249, 244, 239);
+       box-shadow: -15px 15px 20px rgb(204, 189, 177);
+       width: 65vw;
+       margin-left: 178px;
+       
+       height: 540px;
+       margin-left: 240px;
+       
+}
+.skillscontent h2{
+    font-family: 'Outfit', sans-serif;
+    color: rgb(127, 35, 35);
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 49px;
+    margin-bottom: 50px;
+    border: 1.3px solid rgb(156, 28, 28);
+    width: 900px;
+    border-radius: 40px;
+    background-color: white;
+
+}
+.animationbox{
+   
+    margin-left: 50px;
+    padding-top: 30px;
+    height: 470px;
+    width: 90%;
+}
+.animationbox h3{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    color: rgb(104, 27, 27);
+    
+}
+h3 span{
+    float: right;
+    font-size: 40px;
+   
+}
+.animationbar{
+    background-color: rgb(229, 226, 226);
+    border-radius: 10px;
+    height: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+#animation1 hr{
+    background-color: rgb(114, 173, 235);
+    border-radius: 10px;  
+    border: none;
+    height: 10px;
+    animation-name: skillsanimation1;
+    animation-duration: 1.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+#animation2 hr{
+    background-color: rgb(28, 173, 88);
+    border-radius: 10px;  
+    border: none;
+    height: 10px;
+    animation-name: skillsanimation2;
+    animation-duration: 1.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+#animation3 hr{
+    background-color: rgb(206, 154, 41);
+    border-radius: 10px;  
+    border: none;
+    height: 10px;
+    animation-name: skillsanimation3;
+    animation-duration: 1.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+#animation4 hr{
+    background-color: rgb(201, 73, 84);
+    border-radius: 10px;  
+    border: none;
+    height: 10px;
+    animation-name: skillsanimation4;
+    animation-duration: 1.7s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+@keyframes skillsanimation1 {
+                      from{
+                        width: 0%;
+                      }
+                      to{
+                        width: 90%;
+                      }
+}
+@keyframes skillsanimation2 {
+                      from{
+                        width: 0%;
+                      }
+                      to{
+                        width: 80%;
+                      }
+}
+@keyframes skillsanimation3 {
+                      from{
+                        width: 0%;
+                      }
+                      to{
+                        width: 71%;
+                      }
+}
+@keyframes skillsanimation4 {
+                      from{
+                        width: 0%;
+                      }
+                      to{
+                        width: 78%;
+                      }
+}
+
+/* ------------------------------------Project section---------------------------------------- */
+
+#projects{
+    height: 1470px;
+    width: 500px;
+    background-color: rgb(236, 226, 209);
+}
+.projectsheading{
+    text-align: center;
+    padding: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    width: 92vw;
+    background-color: white;
+}
+
+.projectscontainer {
+   
+    width: 90vw;
+    height: 1000px;
+    margin-left: 90px;
+    margin-top: 50px;
+    
+}
+.projectscontainer h2{
+    font-family: 'Outfit', sans-serif;
+    color: rgb(127, 35, 35);
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 240px;
+    border: 1.3px solid rgb(156, 28, 28);
+    width: 700px;
+    border-radius: 40px;
+    background-color: white;
+}
+.projectsbox{
+    
+    width:90vw;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    
+}
+.projectimage{
+    width:440px;
+    height: 500px;
+    margin-left: 70px;
+    background-color: rgb(249, 244, 239);
+    box-shadow: -15px 15px 20px rgb(204, 189, 177);
+}
+.projectcontent{
+    width:640px;
+    height: 500px;
+    padding-left: 30px;
+}
+.projectimage img{
+    width: 350px;
+    height: 270px;
+    border-radius: 20px;
+    margin-left: 45px;
+    margin-top: 60px;
+}
+.projectimage h3{
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(117, 24, 24);
+    
+}
+.projectimage hr{
+    width:35%;
+    height: 1px;
+    border: none;
+    background-color: rgb(224, 46, 46);
+    margin: auto;
+    margin-top: 20px;
+}
+.projectcontent h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    color: rgb(219, 69, 69); 
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.projectcontent p{
+     font-size: 18px;
+     font-family: 'Quicksand', sans-serif;
+    margin-bottom: 30px;
+    width: 500px;
+    font-weight: bold;
+}
+
+/* --------------------------------CONTACT SECTION------------------------------------- */
+
+.contactheading{
+    text-align: center;
+    padding: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    width: 92vw;
+    background-color: white;
+}
+.contactdatamain{
+    background-color: rgb(215, 211, 211);
+    height: 280px;
+    padding-left: 220px;
+}
+.contactdatainner{
+    display: flex;
+}
+.connect{
+    text-align: center;
+    height: 100px;
+    width:27%;
+    margin-top: 70px;
+    
+}
+.connect h2{
+    font-family: 'Quicksand', sans-serif;
+
+}
+.connect p{
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+p .socialhandels{
+    width: 25px;
+    margin: 10px;
+}
+#follow p{
+    padding-top: 13px;
+}
+.copyright p{
+    padding-top: 50px;
+  
+    padding-left: 310px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
